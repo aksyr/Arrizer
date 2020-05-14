@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Arrizer.Attributes\Arrizer.Attributes.csproj" />
+    <ProjectReference Include="..\Arrizer.Generators\Arrizer.Generators.csproj" OutputItemType="CodeGenerationRoslynPlugin" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CodeGeneration.Roslyn.Tool" Version="0.7.63">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Arrizer</AssemblyName>
+    <RootNamespace>Arrizer</RootNamespace>
+    <StartupObject>Arrizer.Program</StartupObject>
+  </PropertyGroup>
+
+</Project>
