@@ -1,6 +1,6 @@
 # Arrizer <sup><h6>(based on .NET Roslyn SDK)</h6></sup>
 
-This is just a little experiment in using Roslyn for code generation. I was looking for something that could easily turn structures into structure of arrays. Couldn't find it.
+This is just a little experiment in using Roslyn for code generation. I was looking for something that could easily turn structures into structure of arrays *(SoA)*. Couldn't find it.
 
 If you're interested in writing something similar I recommend skimming through [Interesting parts](#interesting-parts), reading [Roslyn SDK Guide](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/) and most importantly **checking out the [Roslyn SDK Code Generation](https://github.com/AArnott/CodeGeneration.Roslyn)** repository.
 
